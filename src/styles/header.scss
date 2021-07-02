@@ -10,7 +10,7 @@ header.header {
   img#baloons {
     position: absolute;
     z-index: 5;
-    width: 10vw;
+    width: 20vh;
     top: 5vh;
     margin: 5vw;
     animation: loop;
@@ -40,8 +40,7 @@ header.header {
 
   img#ship {
     position: absolute;
-    // z-index: 1;
-    width: 10vw;
+    width: 20vh;
     bottom: 5vh;
     left: 30vw;
     margin: 5vw;

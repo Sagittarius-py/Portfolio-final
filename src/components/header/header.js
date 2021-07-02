@@ -16,7 +16,7 @@ const Header = () => {
               <h1>Welcome</h1>
               <br />
               <div className="letsGo">
-                <a href="#" id="letsGo">
+                <a href="#section1" id="letsGo">
                   <h2>
                     Lets GO!{" "}
                     <span id="arrow">
