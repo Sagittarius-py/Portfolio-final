@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap");
+
+$color1: #61892f;
+$color2: #86c232;
+$color3: #222629;
+$color4: #47484f;
+$color5: #6b6e70;
+
+header.header {
+  img#baloons {
+    position: absolute;
+    z-index: 5;
+    width: 10vw;
+    top: 5vh;
+    margin: 5vw;
+    animation: loop;
+    animation-name: baloons;
+    animation-duration: 20s;
+    transform: translate(0, 0);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes baloons {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(0, 80px);
+    }
+    50% {
+      transform: translate(0, 0);
+    }
+    75% {
+      transform: translate(0, -80px);
+    }
+    100% {
+      transform: translate(0, -0);
+    }
+  }
+
+  img#ship {
+    position: absolute;
+    // z-index: 1;
+    width: 10vw;
+    bottom: 5vh;
+    left: 30vw;
+    margin: 5vw;
+    animation: loop;
+    animation-name: ship;
+    animation-duration: 10s;
+    transform: translate(0, 0);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes ship {
+    from {
+      left: 30vw;
+    }
+    to {
+      left: 100vw;
+    }
+  }
+
+  div.header {
+    width: 100vw;
+    height: 100vh;
+    background-color: $color4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.letsGo {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    top: 30vh;
+    left: 5vw;
+    font-size: 20pt;
+    a#letsGo {
+      text-decoration: none;
+      h2 {
+        transition: 1s;
+        color: $color5;
+      }
+      span#arrow {
+        transition: 1s;
+        color: $color5;
+      }
+    }
+    a#letsGo:hover {
+      h2 {
+        color: $color2;
+      }
+      span#arrow {
+        margin-left: 5vw;
+        color: $color2;
+      }
+    }
+  }
+}
+
+div.clip {
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+  background-color: $color3;
+
+  position: absolute;
+  z-index: 1;
+
+  left: 0;
+
+  width: 60vw;
+  height: 100vh;
+}
+div.title {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 4vmax;
+  left: 18vw;
+  top: 20vh;
+
+  div#left {
+    position: absolute;
+    z-index: 4;
+    color: $color5;
+  }
+
+  div#right {
+    position: absolute;
+    left: 0vw;
+    color: $color2;
+    animation: forwards;
+    animation-name: wordSlide;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    @keyframes wordSlide {
+      form {
+        left: 0vw;
+      }
+      to {
+        left: 38vw;
+      }
+    }
+  }
+}
