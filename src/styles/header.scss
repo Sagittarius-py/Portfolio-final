@@ -76,9 +76,10 @@ header.header {
     top: 30vh;
     left: 5vw;
     font-size: 20pt;
+    cursor: pointer;
+
     a#letsGo {
-      text-decoration: none;
-      h2 {
+      text-dec h2 {
         transition: 1s;
         color: $color5;
       }
