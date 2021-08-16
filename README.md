@@ -5,11 +5,11 @@ The most up-to-date.
 At this moment semi-responsive but it will change in future.
 
 
-# Technologies # |
----------------- |
-HTML             |
-CSS - SASS       |
-JS - React.js    |
+Technologies |
+-------------|
+HTML         |
+CSS - SASS   |
+JS - React.js|
 
   
   
