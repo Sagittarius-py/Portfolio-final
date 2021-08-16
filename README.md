@@ -4,10 +4,13 @@ The most up-to-date.
 
 At this moment semi-responsive but it will change in future.
 
-Technologies: 
-  *HTML
-  *CSS - SASS
-  *JS - React
+
+Technologies  |
+------------- |
+HTML          |
+CSS - SASS    |
+JS - React.js |
+
   
   
 Hope to add mail comunication in Node.js when will wtart to learn that.
