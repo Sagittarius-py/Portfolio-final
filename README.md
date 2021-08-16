@@ -5,7 +5,7 @@ The most up-to-date.
 At this moment semi-responsive but it will change in future.
 
 
-Technologies  |
+ # Technologies #  |
 ------------- |
 HTML          |
 CSS - SASS    |
