@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/nav";
+import Profile from "../../images/IMG_0136.JPG";
 
 import "../../styles/welcome.scss";
 
@@ -10,6 +11,30 @@ const Welcome = () => {
         {/* Div odpowiadający tylko za tprzycięte tło */}
         <div id="clip"></div>
         {/* Poniżej fale w dolnej części w svg */}
+        <div className="content">
+          <div className="leftContent">
+            {" "}
+            <h1>Cokolwiek</h1>
+            <img src={Profile} alt="cokolwiek" />
+          </div>
+          <div className="rightContent">
+            {" "}
+            <div className="text">
+              <h2>About Me</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                magna lorem, semper id commodo at, ultricies eu dolor. Nullam
+                sed tempus mi, sit amet cursus nunc. Praesent eleifend at augue
+                a euismod. Quisque cursus risus id sapien eleifend pulvinar.
+                Duis et ipsum dui. Vestibulum ante ipsum primis in faucibus orci
+                luctus et ultrices posuere cubilia curae; Aenean molestie, augue
+                id pharetra ultrices, lacus ipsum scelerisque lacus, sed
+                volutpat nisl nulla eu tellus. Donec at ornare ante, et egestas
+                mi. Fusce porta orci ac sagittis mattis.
+              </p>
+            </div>
+          </div>
+        </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#61892f"

@@ -21,7 +21,38 @@ section#section1 {
     clip-path: polygon(100% 0, 100% 35%, 65% 70%, 0 35%, 0 0);
     background-color: $color3;
   }
-
+  div.content {
+    padding: 30vh 10vw 20vh 10vw;
+    display: flex;
+    flex-direction: row;
+    .leftContent {
+      img {
+        height: 250px;
+        width: 350px;
+        border-radius: 20px;
+      }
+      h1 {
+        width: 100%;
+        font-size: 25pt;
+        font-weight: 1000;
+        justify-self: center;
+        align-self: center;
+      }
+    }
+    .rightContent {
+      padding: 5vh 0 0 5vw;
+      width: 50vw;
+      h2 {
+        font-size: 20pt;
+        font-weight: 700;
+      }
+      p {
+        color: $color2;
+        font-weight: 500;
+        font-size: 16pt;
+      }
+    }
+  }
   svg {
     //   styl fal
     position: absolute;

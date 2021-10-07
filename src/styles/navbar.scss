@@ -6,7 +6,7 @@ $color3: #222629;
 $color4: #47484f;
 $color5: #6b6e70;
 
-$gr-gradient: linear-gradient(90deg, #61892f 10%, #86c232 67%);
+$gr-gradient: linear-gradient(90deg, #94d934 10%, #86c232 67%);
 
 nav.navbar {
   width: 40vw;
@@ -24,31 +24,30 @@ nav.navbar {
   align-items: center;
   a.active {
     button {
-      border: solid $color2;
-      background: $color2;
+      background: $color4;
       padding: 10px;
 
-      color: $color3;
+      color: $color2;
     }
   }
   button {
-    border: solid $color2;
-    background: none;
+    // border: solid $color2;
+    border: none;
+    background: $gr-gradient;
     padding: 10px;
     width: 150px;
 
-    color: $color2;
+    color: $color4;
     font-size: 20pt;
     font-family: Roboto;
     font-weight: bold;
     border-radius: 40px;
-    transition: 0.5s;
+    transition: 1s;
   }
   button:hover {
-    border: solid $color2;
-    background: $color4;
+    background: $color5;
     padding: 10px;
 
-    color: $color2;
+    color: #a2e93e;
   }
 }

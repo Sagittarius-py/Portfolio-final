@@ -42,7 +42,7 @@ const Header = () => {
     });
     setTimeout(() => {
       history.push("/welcome");
-    }, 2000);
+    }, 1500);
   };
 
   return (
