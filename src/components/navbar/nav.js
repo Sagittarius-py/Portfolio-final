@@ -33,7 +33,7 @@ const Navbar = () => {
           top: "-20vh",
           left: "0",
           zIndex: "20",
-          transition: "2s",
+          transition: "4s",
         },
       });
     }, 1);

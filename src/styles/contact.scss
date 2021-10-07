@@ -6,15 +6,22 @@ $color3: #222629;
 $color4: #47484f;
 $color5: #6b6e70;
 
-body {
+div.mainContact {
   background-color: $color4;
-}
-div#clip {
-  //   wlement graficzny tła
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  height: 50vh;
-  clip-path: polygon(100% 0, 100% 35%, 65% 70%, 0 35%, 0 0);
-  background-color: $color3;
+  height: 100vh;
+  // display: flex;
+  div#clip {
+    //   wlement graficzny tła
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 50vh;
+    clip-path: polygon(100% 0, 100% 35%, 65% 70%, 0 35%, 0 0);
+    background-color: $color3;
+  }
+  svg {
+    transform: scaleY(50%) translate(0%, 50%);
+    position: fixed;
+    bottom: 0;
+  }
 }
