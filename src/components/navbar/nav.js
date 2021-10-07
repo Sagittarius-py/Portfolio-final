@@ -52,7 +52,7 @@ const Navbar = () => {
         <NavLink exact to="/welcome">
           <button>About</button>
         </NavLink>
-        <NavLink to="/cokolwiek">
+        <NavLink to="/contact">
           <button>Contact</button>
         </NavLink>
         <NavLink exact to="/ktokolwiek">

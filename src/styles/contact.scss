@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap");
+
+$color1: #61892f;
+$color2: #86c232;
+$color3: #222629;
+$color4: #47484f;
+$color5: #6b6e70;
+
+body {
+  background-color: $color4;
+}
+div#clip {
+  //   wlement graficzny tła
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 50vh;
+  clip-path: polygon(100% 0, 100% 35%, 65% 70%, 0 35%, 0 0);
+  background-color: $color3;
+}
