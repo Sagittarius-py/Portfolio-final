@@ -24,4 +24,21 @@ div.mainContact {
     position: fixed;
     bottom: 0;
   }
+  .content {
+    padding-top: 40vh;
+    width: 100vw;
+    justify-content: center;
+    .contactIconontainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 10vw 0 10vw;
+      .contactIconDiv {
+        width: 200px;
+        height: 200px;
+        background-color: #000;
+        border-radius: 10%;
+      }
+    }
+  }
 }

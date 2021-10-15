@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../navbar/nav";
 
+
 import "../../styles/contact.scss";
 
 const Contact = () => {
@@ -9,7 +10,15 @@ const Contact = () => {
       <div className="mainContact">
         <div id="clip"></div>
         <Navbar />
-        <div className="content">cokolwiek</div>
+        <div className="content">
+          <div className="contactIconontainer">
+            <div className="contactIconDiv">
+            </div>
+            <div className="contactIconDiv"></div>
+            <div className="contactIconDiv"></div>
+            <div className="contactIconDiv"></div>
+          </div>
+        </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#61892f"

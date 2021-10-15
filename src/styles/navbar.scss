@@ -22,6 +22,7 @@ nav.navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 2;
   a.active {
     button {
       background: $color4;

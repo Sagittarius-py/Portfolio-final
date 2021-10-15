@@ -55,7 +55,7 @@ const Navbar = () => {
         <NavLink to="/contact">
           <button>Contact</button>
         </NavLink>
-        <NavLink exact to="/ktokolwiek">
+        <NavLink exact to="/projects">
           <button>Projects</button>
         </NavLink>
       </nav>
